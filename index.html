@@ -1,0 +1,62 @@
+<!doctype html>  
+<html lang="en">  
+   <head>  
+      <meta charset="utf-8">  
+      <title>jQuery UI Tabs functionality</title>  
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <script>  
+         $(function() {  
+            $( "#tabs-1" ).tabs();  
+         });  
+      </script>  
+      <style>  
+         #tabs-1{font-size: 14px;}  
+         .ui-widget-header {  
+            background:grey;  
+            border: 1px solid white;  
+            color: lightyellow;  
+            font-weight: bold;  
+         }  
+      </style>  
+   </head>  
+   <body>  
+      <div id="tabs-1">  
+         <ul>  
+            <li><a href="#tabs-2">MERN Technology</a></li>  
+            <li><a href="#tabs-3">Data Science</a></li>  
+            <li><a href="#tabs-4">Server side scripting language</a></li>  
+         </ul>  
+         <div id="tabs-2">  
+       <ol>subjects: 
+              <li>MongoDb==document database</li>  
+               <li>Express(.js)==Node.js web framework</li>  
+               <li>React(.js)==a client side javascript framework</li>  
+               <li>Node(.js)==the premier javascript web server</li>  
+               
+            </ol>  
+         </div>  
+         <div id="tabs-3">  
+ <ol>subjects: 
+               <li>Data Handling and Visualization</li>  
+               <li>Machine Learning</li>  
+               <li>Stochastic Models</li>  
+               <li>Scientific Computing</li>  
+                
+            </ol>   
+         </div>  
+         <div id="tabs-4">  
+         <ol>subjects: 
+               <li>Java</li>  
+               <li>PHP</li>  
+               <li>python</li>  
+               <li>Node.js</li>  
+               
+            </ol> 
+         </div>  
+      </div>  
+   </body>  
+</html>  
+
+ 
